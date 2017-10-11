@@ -696,3 +696,71 @@ ol.flickity-page-dots{
   background-color: #d87900;
   border: none;
 }
+
+
+
+/*EDIT PAGE
+/*form
+------------------------------------------*/
+
+#editprofile .container{
+  margin-bottom: 5em;
+}
+
+#editprofile form {
+    border: 3px solid #f1f1f1;
+}
+
+#editprofile input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-image: none;
+}
+
+#editprofile button {
+    background-color: #d87900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#editprofile button:hover {
+    opacity: 0.8;
+}
+
+#editprofile .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+
+#editprofile .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+#editprofile img.avatar {
+    width: 50%;
+    /*border-radius: 50%;*/
+}
+
+#editprofile .container-form {
+    padding: 12px;
+}
+
+#editprofile span.psw {
+    float: right;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.remember{
+  font-size: 13px;
+}
