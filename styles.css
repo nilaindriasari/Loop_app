@@ -153,7 +153,7 @@ iframe{
 }
 
 .active-button{
-  filter: grayscale(1);
+  filter: opacity(.3);
 }
 
 .sticky {
@@ -579,4 +579,48 @@ ol.flickity-page-dots{
 .reward{
   background: #d39833;
   padding: .5em 3em .5em 3em;
+}
+
+
+/*ACTIVITIES PAGE
+/*icon
+------------------------------------------*/
+
+.act-icon{
+  transform: scale(.7);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.activity-icons {
+    width: 100%;
+    overflow: hidden; /* Overflow due to float */
+}
+
+.activity-icons a {
+    float: left;
+    text-align: center;
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 0;
+}
+
+.act-icon-text{
+  margin-top: -1em;
+  padding-top: 0;
+}
+
+.list{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+.list ul{
+  list-style: none;
+  text-align: left;
+  color: #d39833;
+}
+.material-icons{
+  vertical-align: middle;
 }
