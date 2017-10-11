@@ -538,3 +538,45 @@ ol.flickity-page-dots{
   background: #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+/* loader
+------------------------------------------*/
+.loader {
+  position: relative;
+  margin: 0 auto;
+  top: 1em;
+  border: 12px solid #ffffff;
+  border-radius: 50%;
+  border-top: 12px solid #d39833;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#tab-1 .loader{
+  position: relative !important;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.star{
+  position: absolute;
+  margin-left: 6.2em;
+  margin-top: -4.95em;
+}
+
+.right{
+  margin-left: 2em;
+}
+
+.reward{
+  background: #d39833;
+  padding: .5em 3em .5em 3em;
+}
