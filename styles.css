@@ -120,19 +120,53 @@ iframe{
   border: none;
 }
 
-/* HOME PAGE
+/* START PAGE
 /* Logo
 ------------------------------------------*/
-.loop-logo {
+.loop-logo,
+.loop-logo2 {
   left:0em;
   top: 0em;
-  margin-top: .5em;
-  filter: sepia(100%);
+  margin-top: 1em;
+  margin-bottom: .3em;
+  filter: brightness(1.4);
   display: inline-block;
-  width: 15%;
+  width: 20%;
 }
 
+.loop-logo2{
+  width: 33%;
+}
 
+.login,
+.login-profile{
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-right: 0em;
+  font-size: 12px;
+  align-items: center;
+  text-align: right;
+  color: #ffd665;
+}
+
+.login-profile{
+  width: 65%;
+}
+
+.login-profile a{
+  color: #ffffff;
+}
+
+.login i{
+  font-size: 16px;
+}
+
+.tab{
+  width: 100%;
+    display: inline-flex;
+}
 /* Icon Bar
 ------------------------------------------*/
 
@@ -761,6 +795,6 @@ ol.flickity-page-dots{
     font-size: 14px;
 }
 
-.remember{
+.remember {
   font-size: 13px;
 }
