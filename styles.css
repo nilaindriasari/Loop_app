@@ -534,6 +534,12 @@ a.tc{
 #profile .container{
   margin-bottom: 5.2em;
 }
+
+/* timeline----*/
+#profile hr{
+  border: .3px dashed #d39833;
+}
+
 /* Tabs
 ------------------------------------------*/
 
