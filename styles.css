@@ -155,7 +155,8 @@ iframe{
   width: 65%;
 }
 
-.login-profile a{
+.login-profile a,
+.login a{
   color: #ffffff;
 }
 
@@ -497,7 +498,9 @@ ol.flickity-page-dots{
   text-align: left;
 }
 
-.checked{
+.checked,
+.logpage,
+a.tc{
   color: #d39833;
 }
 
@@ -797,4 +800,15 @@ ol.flickity-page-dots{
 
 .remember {
   font-size: 13px;
+}
+
+
+/*LOGIN PAGE
+---------------*/
+.loginBtn img {
+  filter: drop-shadow(2px 3px 4px rgba(183, 183, 183, 0.8));
+}
+
+#login .text{
+  padding-bottom: 5em;
 }
